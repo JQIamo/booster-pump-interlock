@@ -1,0 +1,8 @@
+Jumper, Description
+JP1, Board Power
+JP2, BNC to Chiller
+JP3, “Pump ON” LED (green)
+JP4, “Set” LED (red)
+JP5, “Set” push button switch
+JP6, “Output” (to OMEGA controller)
+JP7, “Engaged” LED (green)
