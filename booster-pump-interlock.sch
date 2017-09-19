@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4899,7 +4899,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="BOOSTER-PUMP-INTERLOCK-V1.0" library="QR-git.io-v5bSG" deviceset="QR-HTTP://GIT.IO/V5BSG" device="-WIRE"/>
+<part name="BOOSTER-PUMP-INTERLOCK-V1.1" library="QR-git.io-v5bSG" deviceset="QR-HTTP://GIT.IO/V5BSG" device="-WIRE"/>
 </parts>
 <sheets>
 <sheet>
@@ -4944,7 +4944,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P+8" gate="1" x="106.68" y="33.02"/>
 <instance part="GND11" gate="1" x="106.68" y="7.62"/>
 <instance part="GND12" gate="1" x="185.42" y="66.04"/>
-<instance part="BOOSTER-PUMP-INTERLOCK-V1.0" gate="G$1" x="83.82" y="101.6"/>
+<instance part="BOOSTER-PUMP-INTERLOCK-V1.1" gate="G$1" x="83.82" y="101.6"/>
 </instances>
 <busses>
 </busses>
